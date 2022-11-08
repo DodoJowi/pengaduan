@@ -9,10 +9,10 @@
 
 ## Install Project Pengaduan
 - Clone this repository
+- run command: composer update
 - add file .env to pengaduan
 - copy all content in .env-example to .env
 - run command: php artisan key:generate
-- run command: composer update
 - and install npm : npm install && npm run dev
 
 
