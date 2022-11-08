@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Install Project Pengaduan
+- Clone this repository
+- add file .env to pengaduan
+- copy all content in .env-example to .env
+- run command: php artisan key:generate
+- run command: composer update
+- and install npm : npm install && npm run dev
+
+
+
+##
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
