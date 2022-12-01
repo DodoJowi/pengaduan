@@ -20,6 +20,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('beranda', function () {
+    return view('beranda');
+});
+Route::get('tentang', function () {
+    return view('tentang');
+});
+Route::get('cara-pengaduan', function () {
+    return view('cara-pengaduan');
+});
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
